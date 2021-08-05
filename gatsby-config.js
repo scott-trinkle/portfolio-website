@@ -68,7 +68,7 @@ playing guitar, running, or baking bread.`,
       {
         name: 'Programming',
         description:
-          'Python (including NumPy, Pandas, Scikit-learn, Matplotlib, Bokeh, Tensorflow, PyTorch), Bash, MATLAB, SQL, R, C++',
+          'Python (including NumPy, Pandas, Scikit-learn, Matplotlib, Bokeh, TensorFlow, PyTorch), Bash, MATLAB, SQL, R, C++',
       },
       {
         name: 'Analysis',
