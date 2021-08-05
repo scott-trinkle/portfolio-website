@@ -1,57 +1,68 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://www.scotttrinkle.com`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Scott Trinkle',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Scott Trinkle | Data scientist`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Data scientist based in Chicago, IL`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    //author: `@rfitzio`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/scott-trinkle`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/trinkle/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I am a Ph.D. student in Medical Physics at the University of Chicago. My
+research involves multi-modal, multi-scale validation of various MRI
+microstructure methods in the mouse brain. This includes benchmarking nerve
+fiber orientations from diffusion MRI against structure-tensor derived
+orientation measurements from synchrotron microCT, using graph theory and neural
+tracer data to demonstrate geometric bias in structural brain networks derived
+from MRI tractography, and using model-free analysis of echo-planar
+spectroscopic imaging data to demonstrate compromised myelin sensitivity in a
+number of biophysical white matter models.
+
+Throughout, I have developed strong image processing and machine learning
+skills, which led me to my current role as an intern at Waters Corporation,
+using machine learning principles to develop lightweight micro-apps in the
+domain of mass spectrometry.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
+      projects: [
       {
-        name: 'Devfolio',
-        description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
+	name: 'Waters stuff',
+	description: 'MSI imaging / segmentation',
+	link: '/blog/my-third-blog/'
+      },
+      {
+        name: 'Synchrotron stuff',
+        description: 'Synchrotron stuff with diffusion MRI',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
+        name: 'Graph theory stuff',
+        description: 'Geometric surrogates, etc.',
         link: 'https://chromeextensionkit.com/?ref=devfolio',
       },
       {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
+        name: 'Myelin imaging',
+        description: 'Asymmetry, etc.',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
+        name: 'Waters Corporation',
+        description: 'Machine Learning Intern, June 2021 - Present',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
+        name: 'University of Chicago Committee on Medical Physics',
+        description:
+          'Graduate Research Assistant, September 2016 - December 2021',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
