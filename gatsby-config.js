@@ -14,6 +14,7 @@ module.exports = {
     github: `https://github.com/scott-trinkle`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/trinkle/`,
+    cv: `#`, // file path defined in src/components/header/index.jsx
     // Content of the About Me section
     about: `I am a data scientist with experience developing image processing, segmentation,
 and classification tools for preclinical medical imaging data. I am completing
