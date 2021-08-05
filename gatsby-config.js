@@ -15,41 +15,37 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/trinkle/`,
     // Content of the About Me section
-    about: `I am a Ph.D. student in Medical Physics at the University of Chicago. My
-research involves multi-modal, multi-scale validation of various MRI
-microstructure methods in the mouse brain. This includes benchmarking nerve
-fiber orientations from diffusion MRI against structure-tensor derived
-orientation measurements from synchrotron microCT, using graph theory and neural
-tracer data to demonstrate geometric bias in structural brain networks derived
-from MRI tractography, and using model-free analysis of echo-planar
-spectroscopic imaging data to demonstrate compromised myelin sensitivity in a
-number of biophysical white matter models.
-
-Throughout, I have developed strong image processing and machine learning
-skills, which led me to my current role as an intern at Waters Corporation,
-using machine learning principles to develop lightweight micro-apps in the
-domain of mass spectrometry.`,
+    about: `I am a data scientist with experience developing image processing, segmentation,
+and classification tools for preclinical medical imaging data. I am completing
+my Ph.D in Medical Physics at the University of Chicago in December 2021. My
+work there has involved performing validation studies between multiple
+modalities such as synchrotron x-ray microCT, diffusion MRI tractography,
+fluorescence microscopy, and electron microscopy. I am also currently a Machine
+Learning Intern at Waters Corporation where I am developing Python web apps to
+perform tissue classification and interactive visualization of mass spectrometry
+imaging data. In my free time, I can usually be found in a movie theater,
+playing guitar, running, or baking bread.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
       projects: [
       {
 	name: 'Waters stuff',
 	description: 'MSI imaging / segmentation',
-	link: '/blog/my-third-blog/'
+	link: ''
       },
       {
         name: 'Synchrotron stuff',
         description: 'Synchrotron stuff with diffusion MRI',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: '',
       },
       {
         name: 'Graph theory stuff',
         description: 'Geometric surrogates, etc.',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+        link: '',
       },
       {
         name: 'Myelin imaging',
         description: 'Asymmetry, etc.',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: '',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -57,30 +53,30 @@ domain of mass spectrometry.`,
       {
         name: 'Waters Corporation',
         description: 'Machine Learning Intern, June 2021 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://www.waters.com/',
       },
       {
         name: 'University of Chicago Committee on Medical Physics',
         description:
           'Graduate Research Assistant, September 2016 - December 2021',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://medphys.uchicago.edu',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Programming',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Python (including NumPy, Pandas, Scikit-learn, Matplotlib, Bokeh, Tensorflow, PyTorch), Bash, MATLAB, SQL, R, C++',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
-      },
-      {
-        name: 'Other',
+        name: 'Analysis',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Computer vision, machine learning, image segmentation, network analysis',
+      },	
+      {
+        name: 'Tools',
+        description: 'git, GNU Emacs, LaTeX, Docker, AWS',
       },
     ],
   },
