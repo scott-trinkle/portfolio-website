@@ -31,22 +31,22 @@ playing guitar, running, or baking bread.`,
       {
 	name: 'Waters stuff',
 	description: 'MSI imaging / segmentation',
-	link: '/blog/waters-internship/'
+	link: '/news/waters-internship/'
       },
       {
         name: 'Synchrotron stuff',
         description: 'Synchrotron stuff with diffusion MRI',
-        link: '/blog/microct-paper/',
+        link: '/news/microct-paper/',
       },
       {
         name: 'Graph theory stuff',
         description: 'Geometric surrogates, etc.',
-        link: '/blog/brain-networks/',
+        link: '/news/brain-networks/',
       },
       {
         name: 'Myelin imaging',
         description: 'Asymmetry, etc.',
-        link: '/blog/myelin-imaging/',
+        link: '/news/myelin-imaging/',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -93,8 +93,8 @@ playing guitar, running, or baking bread.`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content/news`,
+        name: `news`,
       },
     },
     {
