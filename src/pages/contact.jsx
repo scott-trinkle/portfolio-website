@@ -33,6 +33,7 @@ export const pageQuery = graphql`
         github
         linkedin
         cv
+        contact
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
