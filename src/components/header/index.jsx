@@ -15,7 +15,7 @@ const classes = {
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4',
   link:
-    'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
+    'inline-block py-2 font-semibold text-sm text-gray-600 hover:text-black',
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
@@ -47,6 +47,20 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
+          {!noBlog && (
+            <li className={classes.item}>
+              <Link className={classes.link} to="/news">
+                News
+              </Link>
+            </li>
+          )}
+          {cv && (
+            <li className={classes.item}>
+              <a className={classes.link} href={cvPDF}>
+                CV
+              </a>
+            </li>
+          )}      
           {github && (
             <li className={classes.item}>
               <a className={classes.link} href={github}>
@@ -61,20 +75,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
-          {cv && (
-            <li className={classes.item}>
-              <a className={classes.link} href={cvPDF}>
-                CV
-              </a>
-            </li>
-          )}
-          {!noBlog && (
-            <li className={classes.item}>
-              <Link className={classes.link} to="/news">
-                News
-              </Link>
-            </li>
-          )}
+
         </ul>
       </div>
     </div>
