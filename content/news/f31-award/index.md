@@ -6,15 +6,16 @@ description: 'I have been awarded my own fellowship for my thesis project entitl
 
 I have been awarded a [Ruth L. Kirschstein Predoctoral Individual National
 Research Service
-Award](https://researchtraining.nih.gov/programs/fellowships/f31#) for my thesis
+Award](https://researchtraining.nih.gov/programs/fellowships/f31#) from the
+National Institutes of Health ([NIH](https://www.nih.gov/)) for my thesis
 project entitled ["A novel multi-modal, multi-scale imaging pipeline for the
 validation of diffusion MRI of the
 brain"](https://app.dimensions.ai/details/grant/grant.8555152). This award will
 fund up to three years (totalling $120,979) of my thesis research through the
 National Institute of Neurological Disorders and Stroke
-([NINDS](https://www.ninds.nih.gov/)). 
+([NINDS](https://www.ninds.nih.gov/)).
 
-# Specific aims
+## Specific aims of the fellowship:
 
 Diffusion Tensor Imaging (DTI) is a powerful magnetic resonance imaging tool
 used to noninvasively report 3D microstructural properties of nervous tissue on
