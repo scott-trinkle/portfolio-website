@@ -78,7 +78,7 @@ movie theater, playing guitar, running, or baking bread.`,
           'University of Florida Advanced Laboratory for Radiation Dosimetry Studies',
         description:
           'Undergraduate Research Assistant, January 2013 - May 2016',
-        link: 'https://medphys.uchicago.edu',
+        link: 'https://medphysics.med.ufl.edu/medical-physics-graduate-program/faculty-facilities/research-labs/advanced-laboratory-for-radiation-dosimetry-studies/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
