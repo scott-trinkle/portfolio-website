@@ -31,22 +31,22 @@ playing guitar, running, or baking bread.`,
       {
 	name: 'Waters stuff',
 	description: 'MSI imaging / segmentation',
-	link: ''
+	link: '/blog/waters-internship/'
       },
       {
         name: 'Synchrotron stuff',
         description: 'Synchrotron stuff with diffusion MRI',
-        link: '',
+        link: '/blog/microct-paper/',
       },
       {
         name: 'Graph theory stuff',
         description: 'Geometric surrogates, etc.',
-        link: '',
+        link: '/blog/brain-networks/',
       },
       {
         name: 'Myelin imaging',
         description: 'Asymmetry, etc.',
-        link: '',
+        link: '/blog/myelin-imaging/',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
