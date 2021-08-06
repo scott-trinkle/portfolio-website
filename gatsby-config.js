@@ -19,8 +19,8 @@ module.exports = {
     about: `I am a data scientist with experience developing image processing, segmentation,
 and classification tools for preclinical medical imaging data. I am completing
 my Ph.D in Medical Physics at the University of Chicago in December 2021. My
-work there has involved performing validation studies between multiple
-modalities such as synchrotron x-ray microCT, diffusion MRI tractography,
+work there has involved performing validation studies between multiple imaging
+modalities including synchrotron x-ray microCT, diffusion MRI tractography,
 fluorescence microscopy, and electron microscopy. I am also currently a Machine
 Learning Intern at Waters Corporation where I am developing Python web apps to
 perform tissue classification and interactive visualization of mass spectrometry
