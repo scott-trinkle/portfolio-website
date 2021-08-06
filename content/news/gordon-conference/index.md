@@ -16,4 +16,4 @@ target="_blank">here</a> and check out the poster below.
 
 ![Group photo](./gordon_poster.jpg)
 
-
+![](./with_poster.jpg)
