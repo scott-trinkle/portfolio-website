@@ -4,11 +4,11 @@ import React from 'react';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import SectionContact from '../components/section-contact'
+import SectionContact from '../components/section-contact';
 
 const Index = ({ data }) => {
-    const posts = data.allMarkdownRemark.edges;
-    const noBlog = !posts || !posts.length;
+  const posts = data.allMarkdownRemark.edges;
+  const noBlog = !posts || !posts.length;
 
   return (
     <Layout>

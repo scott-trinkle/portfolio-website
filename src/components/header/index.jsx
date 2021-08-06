@@ -23,7 +23,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
   const cv = get(metadata, 'cv', false);
-  const contact = get(metadata, 'contact', false);  
+  const contact = get(metadata, 'contact', false);
 
   return (
     <div className={classes.wrapper}>
@@ -57,21 +57,36 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           )}
           {cv && (
             <li className={classes.item}>
-              <a className={classes.link} href={cvPDF} target="_blank" rel="noreferrer">
+              <a
+                className={classes.link}
+                href={cvPDF}
+                target="_blank"
+                rel="noreferrer"
+              >
                 CV
               </a>
             </li>
-          )}      
+          )}
           {github && (
             <li className={classes.item}>
-              <a className={classes.link} href={github} target="_blank" rel="noreferrer">
+              <a
+                className={classes.link}
+                href={github}
+                target="_blank"
+                rel="noreferrer"
+              >
                 GitHub
               </a>
             </li>
           )}
           {linkedin && (
             <li className={classes.item}>
-              <a className={classes.link} href={linkedin}  target="_blank" rel="noreferrer">
+              <a
+                className={classes.link}
+                href={linkedin}
+                target="_blank"
+                rel="noreferrer"
+              >
                 LinkedIn
               </a>
             </li>
@@ -83,7 +98,6 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </Link>
             </li>
           )}
-
         </ul>
       </div>
     </div>

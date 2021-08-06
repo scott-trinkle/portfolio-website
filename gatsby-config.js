@@ -28,30 +28,35 @@ Python web apps to perform tissue classification and interactive visualization
 of mass spectrometry imaging data. In my free time, I can usually be found in a
 movie theater, playing guitar, running, or baking bread.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-      projects: [
+    projects: [
       {
-	name: 'MSI Viewer',
-	description: 'Web app for the interactive visualization of mass spectrometry imaging data. Built with Bokeh and Streamlit.',
-	link: '/news/waters-internship/'
+        name: 'MSI Viewer',
+        description:
+          'Web app for the interactive visualization of mass spectrometry imaging data. Built with Bokeh and Streamlit.',
+        link: '/news/waters-internship/',
       },
       {
-	name: 'MSI Tissue Classifier',
-	description: 'Web app for the unsupervised classification of tissue types in multi-dimensional mass spectrometry imaging data using manifold learning and hierarchical density-based clustering.',
-	link: '/news/waters-internship/'
-      },	  	  
+        name: 'MSI Tissue Classifier',
+        description:
+          'Web app for the unsupervised classification of tissue types in multi-dimensional mass spectrometry imaging data using manifold learning and hierarchical density-based clustering.',
+        link: '/news/waters-internship/',
+      },
       {
         name: 'Diffusion MRI validation with x-ray microCT',
-        description: 'Developed tools for structure orientation extraction and multi-modal, multi-scale spatial registration.',
+        description:
+          'Developed tools for structure orientation extraction and multi-modal, multi-scale spatial registration.',
         link: '/news/microct-paper/',
       },
       {
         name: 'Network analysis of MRI and optical tracer brain graphs',
-        description: 'Constructed random geometric surrogate graphs to uncover spatial bias in diffusion MRI tractography.',
+        description:
+          'Constructed random geometric surrogate graphs to uncover spatial bias in diffusion MRI tractography.',
         link: '/news/brain-networks/',
-      },	  
+      },
       {
         name: 'Model-free MR myelin imaging',
-        description: 'Demonstrated that common biophysical models lead to comprimised myelin classification accuracy compared to a spectral asymmetry metric.',
+        description:
+          'Demonstrated that common biophysical models lead to comprimised myelin classification accuracy compared to a spectral asymmetry metric.',
         link: '/news/myelin-imaging/',
       },
     ],
@@ -69,11 +74,12 @@ movie theater, playing guitar, running, or baking bread.`,
         link: 'https://medphys.uchicago.edu',
       },
       {
-        name: 'University of Florida Advanced Laboratory for Radiation Dosimetry Studies',
+        name:
+          'University of Florida Advanced Laboratory for Radiation Dosimetry Studies',
         description:
           'Undergraduate Research Assistant, January 2013 - May 2016',
         link: 'https://medphys.uchicago.edu',
-      },	
+      },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
@@ -86,7 +92,7 @@ movie theater, playing guitar, running, or baking bread.`,
         name: 'Analysis',
         description:
           'Computer vision, machine learning, image segmentation, network analysis',
-      },	
+      },
       {
         name: 'Tools',
         description: 'git, GNU Emacs, LaTeX, Docker, AWS',
