@@ -48,6 +48,7 @@ export const pageQuery = graphql`
         github
         linkedin
         cv
+        contact
         projects {
           name
           description

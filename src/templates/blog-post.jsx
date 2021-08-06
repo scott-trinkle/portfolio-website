@@ -45,6 +45,7 @@ export const pageQuery = graphql`
         github
         linkedin
         cv
+        contact
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

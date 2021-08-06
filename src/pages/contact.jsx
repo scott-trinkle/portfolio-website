@@ -1,25 +1,20 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 
-import BlogPosts from '../components/blog-posts';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import NotFound from '../pages/404';
+import SectionContact from '../components/section-contact'
 
 const Index = ({ data }) => {
-  const posts = data.allMarkdownRemark.edges;
-  const noBlog = !posts || !posts.length;
-
-  if (!posts || !posts.length) {
-    return <NotFound />;
-  }
+    const posts = data.allMarkdownRemark.edges;
+    const noBlog = !posts || !posts.length;
 
   return (
     <Layout>
-      <SEO title="News" />
-      <Header metadata={data.site.siteMetadata} />
-      {!noBlog && <BlogPosts posts={posts} />}
+      <SEO title="Contact" />
+      <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
+      {<SectionContact />}
     </Layout>
   );
 };
@@ -38,7 +33,6 @@ export const pageQuery = graphql`
         github
         linkedin
         cv
-        contact
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {

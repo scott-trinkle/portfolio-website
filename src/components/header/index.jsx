@@ -22,7 +22,8 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
-  const cv = get(metadata, 'cv', false);  
+  const cv = get(metadata, 'cv', false);
+  const contact = get(metadata, 'contact', false);  
 
   return (
     <div className={classes.wrapper}>
@@ -56,23 +57,30 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           )}
           {cv && (
             <li className={classes.item}>
-              <a className={classes.link} href={cvPDF}>
+              <a className={classes.link} href={cvPDF} target="_blank" rel="noreferrer">
                 CV
               </a>
             </li>
           )}      
           {github && (
             <li className={classes.item}>
-              <a className={classes.link} href={github}>
+              <a className={classes.link} href={github} target="_blank" rel="noreferrer">
                 GitHub
               </a>
             </li>
           )}
           {linkedin && (
             <li className={classes.item}>
-              <a className={classes.link} href={linkedin}>
+              <a className={classes.link} href={linkedin}  target="_blank" rel="noreferrer">
                 LinkedIn
               </a>
+            </li>
+          )}
+          {contact && (
+            <li className={classes.item}>
+              <Link className={classes.link} to="/contact">
+                Contact
+              </Link>
             </li>
           )}
 
