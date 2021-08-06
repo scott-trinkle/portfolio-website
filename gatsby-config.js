@@ -20,33 +20,38 @@ module.exports = {
     about: `I am a data scientist with experience developing image processing, segmentation,
 and classification tools for preclinical medical imaging data. I am completing
 my Ph.D in Medical Physics at the University of Chicago in December 2021. My
-work there has involved performing validation studies between multiple imaging
-modalities including synchrotron x-ray microCT, diffusion MRI tractography,
-fluorescence microscopy, and electron microscopy. I am also currently a Machine
-Learning Intern at Waters Corporation where I am developing Python web apps to
-perform tissue classification and interactive visualization of mass spectrometry
-imaging data. In my free time, I can usually be found in a movie theater,
-playing guitar, running, or baking bread.`,
+work there has involved performing validation studies between multiple
+preclinical imaging modalities including synchrotron x-ray microCT, diffusion
+MRI tractography, fluorescence microscopy, and electron microscopy. I am also
+currently a Machine Learning Intern at Waters Corporation where I am developing
+Python web apps to perform tissue classification and interactive visualization
+of mass spectrometry imaging data. In my free time, I can usually be found in a
+movie theater, playing guitar, running, or baking bread.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
       projects: [
       {
-	name: 'Waters stuff',
-	description: 'MSI imaging / segmentation',
+	name: 'MSI Viewer',
+	description: 'Web app for the interactive visualization of mass spectrometry imaging data. Built with Bokeh and Streamlit.',
 	link: '/news/waters-internship/'
       },
       {
-        name: 'Synchrotron stuff',
-        description: 'Synchrotron stuff with diffusion MRI',
+	name: 'MSI Tissue Classifier',
+	description: 'Web app for the unsupervised classification of tissue types in multi-dimensional mass spectrometry imaging data using manifold learning and hierarchical density-based clustering.',
+	link: '/news/waters-internship/'
+      },	  	  
+      {
+        name: 'Diffusion MRI validation with x-ray microCT',
+        description: 'Developed tools for structure orientation extraction and multi-modal, multi-scale spatial registration.',
         link: '/news/microct-paper/',
       },
       {
-        name: 'Graph theory stuff',
-        description: 'Geometric surrogates, etc.',
+        name: 'Network analysis of MRI and optical tracer brain graphs',
+        description: 'Constructed random geometric surrogate graphs to uncover spatial bias in diffusion MRI tractography.',
         link: '/news/brain-networks/',
-      },
+      },	  
       {
-        name: 'Myelin imaging',
-        description: 'Asymmetry, etc.',
+        name: 'Model-free MR myelin imaging',
+        description: 'Demonstrated that common biophysical models lead to comprimised myelin classification accuracy compared to a spectral asymmetry metric.',
         link: '/news/myelin-imaging/',
       },
     ],
@@ -63,6 +68,12 @@ playing guitar, running, or baking bread.`,
           'Graduate Research Assistant, September 2016 - December 2021',
         link: 'https://medphys.uchicago.edu',
       },
+      {
+        name: 'University of Florida Advanced Laboratory for Radiation Dosimetry Studies',
+        description:
+          'Undergraduate Research Assistant, January 2013 - May 2016',
+        link: 'https://medphys.uchicago.edu',
+      },	
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
