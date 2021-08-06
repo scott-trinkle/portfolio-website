@@ -14,6 +14,6 @@ analysis to extract fiber orientations from microCT data with a poster entitled
 with x-ray microcomputed tomography." You can read my abstract <a href="./abstract.pdf"
 target="_blank">here</a> and check out the poster below. 
 
-![Group photo](./gordon_poster_18.png)
+![Group photo](./gordon_poster.jpg)
 
 
