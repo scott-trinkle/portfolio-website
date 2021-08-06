@@ -4,7 +4,9 @@ date: '2019-06-28T12:00:00.00Z'
 description: 'I have been awarded my own fellowship for my thesis project entitled "A novel multi-modal, multi-scale imaging pipeline for the validation of diffusion MRI of the brain".'
 ---
 
-I have been awarded a [Ruth L. Kirschstein Predoctoral Individual National
+It has [just hit the
+press](https://medphys.uchicago.edu/news-archive/scott-trinkle-awarded-nih-f31)
+that I have been awarded a [Ruth L. Kirschstein Predoctoral Individual National
 Research Service
 Award](https://researchtraining.nih.gov/programs/fellowships/f31#) from the
 National Institutes of Health ([NIH](https://www.nih.gov/)) for my thesis
