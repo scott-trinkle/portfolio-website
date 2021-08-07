@@ -43,17 +43,18 @@ Criterion Channel, playing guitar, running, or baking bread.`,
         link: '/news/waters-internship/',
       },
       {
+        name: 'braingraphgeo',
+        description:
+          'Braingraphgeo is a Python package I developed for performing analysis on structural brain networks using random geometric surrogate graphs.',
+        link: 'https://github.com/scott-trinkle/braingraphgeo',
+      },	
+      {
         name: 'Diffusion MRI validation with x-ray microCT',
         description:
           'Developed computer vision tools for structure orientation extraction and multi-modal, multi-scale spatial registration.',
         link: '/news/microct-paper/',
       },
-      {
-        name: 'Network analysis of MRI and optical tracer brain graphs',
-        description:
-          'Constructed random geometric surrogate graphs to uncover geometric bias in diffusion MRI tractography.',
-        link: '/news/brain-networks/',
-      },
+
       {
         name: 'Model-free MR myelin imaging',
         description:
