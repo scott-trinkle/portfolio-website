@@ -9,15 +9,14 @@ constructed from diffusion tractography and tracer injections" is currently
 under review at Magnetic Resonance in Medicine. You can download the draft <a
 href="/myelin_paper.pdf" target="_blank" rel="noreferrer">here</a>.
 
-# Highlights 
+# Highlights
 
 - A model-free asymmetry metric shows promising performance classifying control-
-from dysmyelinated white matter voxels.
+  from dysmyelinated white matter voxels.
 - After fitting the same data to common time-domain biophysical models,
-classification performance is reduced.
+  classification performance is reduced.
 - This demonstrates biases in the underlying models and motivates future
-development of spectral analysis methods
-
+  development of spectral analysis methods
 
 # Motivation
 
@@ -51,7 +50,8 @@ indicator of whether or not a voxel contains a single or multiple crossing fiber
 populations.
 
 # Results
-At all FA levels and in voxels with both single and crossing fibers, 
+
+At all FA levels and in voxels with both single and crossing fibers,
 the model-free asymmetry had a much higher area under the ROC curve (AUC)
 than either of the model-based approaches:
 
@@ -62,7 +62,6 @@ spectral asymmetry images, where the model-free ("Data") image shows notably
 higher white-matter contrast than either of the model-based approaches:
 
 ![](./slices.png)
-
 
 Our results confirm biases in existing, common biophysical models and promote
 the further development of spectral analysis methods to benchmark new

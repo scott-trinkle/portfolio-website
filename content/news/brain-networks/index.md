@@ -7,23 +7,23 @@ description: 'My new manuscript uses graph theory and optical tracer imaging to 
 My first-author paper "The role of spatial embedding in mouse brain networks
 constructed from diffusion tractography and tracer injections" is currently
 under review at NeuroImage. You can download the draft <a
-href="/brain_networks.pdf" target="_blank" rel="noreferrer">here</a>. 
+href="/brain_networks.pdf" target="_blank" rel="noreferrer">here</a>.
 
-# Highlights 
+# Highlights
 
 - I constructed structural brain networks using diffusion MRI tractography and
-public tracer data
+  public tracer data
 - I generated random geometric surrogate networks to use as a baseline for comparative
-network analysis
+  network analysis
 - I found that modular- and hub-node structure in tractography networks are heavily
-biased by geometry
+  biased by geometry
 
 # Motivation
 
 [Diffusion MRI tractography](https://en.wikipedia.org/wiki/Tractography) is
 the only way to noninvasively measure the structural connectivity of the brain,
-but recent validation studies have revealed that there are severe limitations 
-in modern approaches. 
+but recent validation studies have revealed that there are severe limitations
+in modern approaches.
 
 ![](./tract_demo.jpg)
 
@@ -36,9 +36,9 @@ distances, so longer streamlines have more errors, causing a bias towards
 connectivity between nearby structures.
 
 Part of the challenge of detecting this bias is that the brain is itself
-a **spatially-embedded network** - there is an actual, **biological** bias 
-towards short-range connections in addition to the **methodological** bias 
-imparted by tractography. 
+a **spatially-embedded network** - there is an actual, **biological** bias
+towards short-range connections in addition to the **methodological** bias
+imparted by tractography.
 
 The purpose of this project was to use neural tracer data from the [Allen Mouse
 Brain Connectivity Atlas](https://connectivity.brain-map.org) to distinguish
@@ -47,7 +47,6 @@ use fluorescent viruses that infect only specific pathways in the brain based on
 where they were injected. With optical imaging, you can precisely quantify
 regions of tracer infection, giving you close to a ground-truth measure of
 connectivity between different regions.
-
 
 # Strategy
 
@@ -59,8 +58,8 @@ two regions, normalized by the size of the two regions.
 
 From these "empirical" graphs, we were inspired by a [recent
 paper](https://www.sciencedirect.com/science/article/abs/pii/S105381191500806X?via%3Dihub) to construct **geometric surrogate graphs** that have the same
-edge-weight distribution and weight-distance relationships as the 
-empirical graphs, but are otherwise randomly connected. 
+edge-weight distribution and weight-distance relationships as the
+empirical graphs, but are otherwise randomly connected.
 
 Using a host of analytical tools from graph theory, comparison between the
 empirical and geometric surrogate graphs then allows us to quantify **the extent
@@ -69,10 +68,10 @@ brain's geometry alone**.
 
 # Results
 
- Tractography networks (blue and orange) dramatically underestimate connectivity
- at long distances relative to tracers:
- 
- ![](./weight-distance.png)
+Tractography networks (blue and orange) dramatically underestimate connectivity
+at long distances relative to tracers:
+
+![](./weight-distance.png)
 
 Tractography networks (Wemp) place their most important "hub" nodes towards the
 center of the brain, similar to their corresponding geometric surrogate graphs

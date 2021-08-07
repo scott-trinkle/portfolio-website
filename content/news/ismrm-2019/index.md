@@ -31,4 +31,3 @@ I was also able to explore the city a little bit and find a mural
 of Leonard Cohen, one of my favorite musicians:
 
 ![Leonard](./leonardcohen.jpg)
-

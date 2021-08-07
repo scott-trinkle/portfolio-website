@@ -13,7 +13,7 @@ National Institutes of Health ([NIH](https://www.nih.gov/)) for my thesis
 project entitled ["A novel multi-modal, multi-scale imaging pipeline for the
 validation of diffusion MRI of the
 brain"](https://app.dimensions.ai/details/grant/grant.8555152). This award will
-fund up to three years (totaling $120,979) of my thesis research through the
+fund up to three years (totaling \$120,979) of my thesis research through the
 National Institute of Neurological Disorders and Stroke
 ([NINDS](https://www.ninds.nih.gov/)).
 
@@ -61,7 +61,6 @@ six orders of magnitude**. The results of this work will address the limitations
 of previous histology-based validation studies, and provide a key
 microanatomical understanding of the basis of the DTI signal. The specific aims
 are:
-
 
 **Aim 1: Model phase contrast to optimize microCT data acquisition.** Techniques
 to exploit phase contrast in synchrotron x-ray imaging typically make the

@@ -12,7 +12,7 @@ Massachusetts. I presented preliminary results on the use of structure-tensor
 analysis to extract fiber orientations from microCT data with a poster entitled
 "Toward whole-brain validation of diffusion MRI fiber-orientation distributions
 with x-ray microcomputed tomography." You can read my abstract <a href="./abstract.pdf"
-target="_blank">here</a> and check out the poster below. 
+target="_blank">here</a> and check out the poster below.
 
 ![Group photo](./gordon_poster.jpg)
 

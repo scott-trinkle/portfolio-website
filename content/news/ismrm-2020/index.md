@@ -17,12 +17,13 @@ tracer injections."**
 
 In this work, we used public neural tracer data from the [Allen Mouse
 Brain Connectivity Atlas](https://connectivity.brain-map.org) to show that
-1. Fiber orientations extracted from x-ray microCT data can be used with 
-standard tractography pipelines
+
+1. Fiber orientations extracted from x-ray microCT data can be used with
+   standard tractography pipelines
 2. Both diffusion MRI and microCT tractography yield **comparable performance
-to a completely random tracking approach** in terms of replicating the true
-structural connectivity of the mouse brain as measured with the tracer data,
-indicating **severe geometric bias in current tractography methods**
+   to a completely random tracking approach** in terms of replicating the true
+   structural connectivity of the mouse brain as measured with the tracer data,
+   indicating **severe geometric bias in current tractography methods**
 
 You can read my abstract <a href="./abstract.pdf" target="_blank">here</a>
 and watch my presentation below:

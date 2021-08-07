@@ -7,12 +7,13 @@ description: 'Our new manuscript describing a multi-modal microstructural imagin
 Our new paper "[Multi-modal imaging of a single mouse brain over five orders of
 magnitude of
 resolution](https://www.sciencedirect.com/science/article/pii/S1053811921005279?via%3Dihub)"
-has been published in NeuroImage. 
+has been published in NeuroImage.
 
 In this work, we demonstrate an imaging pipeline for a whole mouse brain
 using
+
 1. MRI
-2. Whole-brain synchrotron x-ray microCT 
+2. Whole-brain synchrotron x-ray microCT
 3. Serial electron microscopy (EM)
 
 With EM, we get nano-scale reconstructions of individual synapses, giving us
@@ -27,6 +28,7 @@ href="http://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B0
 [Neuroglancer](https://opensource.google/projects/neuroglancer).
 
 # Abstract
+
 Mammalian neurons operate at length scales spanning six orders of magnitude;
 they project millimeters to centimeters across brain regions, are composed of
 micrometer-scale-diameter myelinated axons, and ultimately form nanometer scale

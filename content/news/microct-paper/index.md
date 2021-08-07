@@ -19,9 +19,9 @@ href="http://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B0
 # Highlights
 
 - I developed a 4D spatio-angular registration pipeline between a ~10 TB microCT
-dataset and a ~100 MB diffusion MRI dataset of the same mouse brain
+  dataset and a ~100 MB diffusion MRI dataset of the same mouse brain
 - I developed computer vision tools to extract local nerve fiber orientations from high-resolution
-microCT data and bin them as an angular distribution on a basis of spherical harmonic functions
+  microCT data and bin them as an angular distribution on a basis of spherical harmonic functions
 - I demonstrated the feasibility of using microCT as a validation dataset for diffusion MRI
 
 # Motivation
@@ -43,7 +43,7 @@ orientations**.
 
 Most studies in the past have used optical microscopy as this validation imaging
 tool, which works well but is very labor-intensive and requires physically
-slicing a tissue-sample due to the low penetration depth of optical light.  This
+slicing a tissue-sample due to the low penetration depth of optical light. This
 leads to non-uniform resolution in 3D because the thickness of the slice is
 typically much thicker than the in-plane resolution of the microscope.
 
@@ -107,7 +107,7 @@ diffusion MRI reconstruction.
 The key is that when we binned the vectors together to make our angular
 histogram, we chose a 3D cube equal in size to an MRI voxel, so now we
 have a 3D grid of fODFs on the same scale as the MRI data and can fairly compare
-them after spatial registration. 
+them after spatial registration.
 
 ![](./st4.jpg)
 
@@ -118,15 +118,15 @@ See more fODF results from the microCT data below:
 ## Spatial registration
 
 Now that we have fODFs from both modality on the same scale, we need
-to align the voxel grids so that we can fairly compare individual 
-orientation estimates. 
+to align the voxel grids so that we can fairly compare individual
+orientation estimates.
 
 With optical imaging, this registration task is challenging since you are
 typically dealing with digital stacks of 2D images. The massive advantage of
 using the whole-brain microCT data with the structure-tensor processing step is
 that the data is already in the same format as the MRI reconstruction, and the
 scale difference has already been taken care of, so we can use existing
-registration packages. 
+registration packages.
 
 An overview of our registration pipeline is shown below:
 
@@ -134,10 +134,11 @@ An overview of our registration pipeline is shown below:
 
 To summarize, we first perform purely spatial registrations using the
 [ANTS package](http://stnava.github.io/ANTs/):
+
 1. We downsample the microCT intensity data and perform nonlinear
-registration to a structural MRI voxel (EPSI)
+   registration to a structural MRI voxel (EPSI)
 2. We perform a linear registration from our higher-resolution EPSI
-data to our low-resolution diffusion data (b0)
+   data to our low-resolution diffusion data (b0)
 
 We then concatenate both transforms and apply them to the microCT fODFs, using
 [MRTrix3](https://www.mrtrix.org/) to account for reorientation and modulation
@@ -149,7 +150,7 @@ When all is said in done, we get a result like this:
 
 The microCT fODFs were derived from actual computational measurements of
 the underlying nerve fiber orientations, so they can be used in future studies
-to benchmark different diffusion MRI approaches. 
+to benchmark different diffusion MRI approaches.
 
 In [another paper](/news/imaging-pipeline-paper/), we show how this imaging and
 registration pipeline can be extended to include nano-scale imaging over small
@@ -164,4 +165,3 @@ on structure-tensor derived fODFs and evaluate how biased fODFs from diffusion
 MRI affect tractography performance:
 
 ![](./tracts.jpg)
-

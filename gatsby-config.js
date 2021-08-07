@@ -29,7 +29,7 @@ classification and interactive visualization of mass spectrometry imaging
 data. In my free time, I can usually be found watching something from the
 Criterion Channel, playing guitar, running, or baking bread.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-      projects: [
+    projects: [
       {
         name: 'MSI Viewer',
         description:
@@ -47,7 +47,7 @@ Criterion Channel, playing guitar, running, or baking bread.`,
         description:
           'Developed computer vision tools for structure orientation extraction and multi-modal, multi-scale spatial registration.',
         link: '/news/microct-paper/',
-      },	  	  
+      },
       {
         name: 'Network analysis of MRI and optical tracer brain graphs',
         description:
@@ -66,7 +66,8 @@ Criterion Channel, playing guitar, running, or baking bread.`,
       {
         name: 'Waters Corporation',
         description: 'Machine Learning Intern, June 2021 - Present',
-        link: 'https://www.waters.com/waters/en_US/Waters/nav.htm?cid=513691&locale=en_US',
+        link:
+          'https://www.waters.com/waters/en_US/Waters/nav.htm?cid=513691&locale=en_US',
       },
       {
         name: 'University of Chicago Committee on Medical Physics',
@@ -79,7 +80,8 @@ Criterion Channel, playing guitar, running, or baking bread.`,
           'University of Florida Advanced Laboratory for Radiation Dosimetry Studies',
         description:
           'Undergraduate Research Assistant, January 2013 - May 2016',
-        link: 'https://medphysics.med.ufl.edu/medical-physics-graduate-program/faculty-facilities/research-labs/advanced-laboratory-for-radiation-dosimetry-studies/',
+        link:
+          'https://medphysics.med.ufl.edu/medical-physics-graduate-program/faculty-facilities/research-labs/advanced-laboratory-for-radiation-dosimetry-studies/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
