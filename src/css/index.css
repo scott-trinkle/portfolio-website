@@ -86,7 +86,7 @@
 @layer utilities {
   @responsive {
     .max-w-150 {
-      max-width: 225px;
+      max-width: 150px;
     }
 
     .top-5 {
