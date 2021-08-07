@@ -1,5 +1,5 @@
 ---
-title: 'March 25, 2021 - Feature extraction from 10 TB of microCT data and spatial registration to diffusion MRI'
+title: 'New paper: feature extraction from 10 TB of microCT data and spatial registration to diffusion MRI'
 date: '2021-03-25T12:00:00.00Z'
 description: 'My new paper was just published in Magnetic Resonance in Medicine. It demonstrates a processing pipeline to validate diffusion MRI with microCT.'
 ---

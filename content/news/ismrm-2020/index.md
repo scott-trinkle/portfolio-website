@@ -1,5 +1,5 @@
 ---
-title: August 14, 2020 - Virtual talk at ISMRM 2020 conference receives Magna Cum Laude merit award
+title: 'Presentation: Receives Magna Cum Laude merit award for talk at virtual ISMRM 2020 conference'
 date: '2020-08-14T12:00:00.00Z'
 description: 'My talk was entitled "Synchrotron microCT tractography connectomics: comparison with diffusion MRI and neural tracer injections".'
 ---
