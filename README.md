@@ -2,4 +2,6 @@
 
 # Personal portfolio website
 
+[www.scotttrinkle.com](http://www.scotttrinkle.com)
+
 Inspired by [devfolio](https://github.com/RyanFitzgerald/devfolio)
