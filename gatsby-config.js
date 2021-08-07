@@ -148,7 +148,7 @@ Criterion Channel, playing guitar, running, or baking bread.`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `ADD YOUR TRACKING ID HERE`, // Optional Google Analytics
+        trackingId: `UA-204361692-1`, // Optional Google Analytics
       },
     },
     {
