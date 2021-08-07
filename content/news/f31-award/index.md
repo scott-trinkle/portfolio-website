@@ -1,7 +1,7 @@
 ---
 title: 'Award: F31 predoctoral fellowship from the NIH'
 date: '2019-06-28T12:00:00.00Z'
-description: 'I have been awarded my own fellowship for my thesis project entitled "A novel multi-modal, multi-scale imaging pipeline for the validation of diffusion MRI of the brain".'
+description: 'I have been awarded a fellowship for my thesis project entitled "A novel multi-modal, multi-scale imaging pipeline for the validation of diffusion MRI of the brain".'
 ---
 
 It has [just hit the
@@ -13,7 +13,7 @@ National Institutes of Health ([NIH](https://www.nih.gov/)) for my thesis
 project entitled ["A novel multi-modal, multi-scale imaging pipeline for the
 validation of diffusion MRI of the
 brain"](https://app.dimensions.ai/details/grant/grant.8555152). This award will
-fund up to three years (totalling $120,979) of my thesis research through the
+fund up to three years (totaling $120,979) of my thesis research through the
 National Institute of Neurological Disorders and Stroke
 ([NINDS](https://www.ninds.nih.gov/)).
 
@@ -56,8 +56,8 @@ in the brain. We propose to optimize a pipeline to use microCT data together
 with serial electron microscopy (EM) to validate and characterize DTI ODF
 reconstruction algorithms with respect to the underlying neurological tissue
 structure. Imaging the same mouse brain using DTI, microCT and EM will provide
-\textbf{an unprecedented DTI validation dataset with resolution scales spanning
-six orders of magnitude}. The results of this work will address the limitations
+**an unprecedented DTI validation dataset with resolution scales spanning
+six orders of magnitude**. The results of this work will address the limitations
 of previous histology-based validation studies, and provide a key
 microanatomical understanding of the basis of the DTI signal. The specific aims
 are:

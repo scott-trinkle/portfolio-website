@@ -5,7 +5,7 @@ description: 'My new manuscript uses graph theory and optical tracer imaging to 
 ---
 
 My first-author paper "The role of spatial embedding in mouse brain networks
-constructed from diffusoin tractography and tracer injections" is currently
+constructed from diffusion tractography and tracer injections" is currently
 under review at NeuroImage. You can download the draft <a
 href="/brain_networks.pdf" target="_blank" rel="noreferrer">here</a>. 
 

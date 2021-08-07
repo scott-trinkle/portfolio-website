@@ -1,5 +1,5 @@
 ---
-title: 'New article: Research highlighted in UChicago News'
+title: 'Article: Research highlighted in UChicago News'
 date: '2021-07-06T12:00:00.00Z'
 description: 'The article focuses on our imaging pipeline connecting MRI to electron microscopy in the same sample using synchrotron microCT.'
 ---

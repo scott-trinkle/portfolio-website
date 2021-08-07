@@ -37,7 +37,7 @@ connectivity across the brain with [fiber
 tractography](https://en.wikipedia.org/wiki/Tractography).
 
 There are a number of approaches for performing this reconstruction, but all of
-them require validation with some sort of additionaly high-resolution imaging
+them require validation with some sort of additional high-resolution imaging
 because **the MRI resolution is not high enough to verify the fiber
 orientations**.
 
@@ -82,7 +82,7 @@ fiber.
 
 In other words the algorithm takes an image of nerve fibers, and measures the
 vector of nerve fiber orientations at every pixel, as shown below, where the
-color of the vetor represents direction (left-right: red, up-down: green,
+color of the vector represents direction (left-right: red, up-down: green,
 in-out: blue).
 
 ![](./st1.jpg)
@@ -111,7 +111,7 @@ them after spatial registration.
 
 ![](./st4.jpg)
 
-See more fODF results from the xray data below:
+See more fODF results from the microCT data below:
 
 ![](./fodf_xr.jpg)
 
@@ -121,7 +121,7 @@ Now that we have fODFs from both modality on the same scale, we need
 to align the voxel grids so that we can fairly compare individual 
 orientation estimates. 
 
-With optical imaging, this registration task is challening since you are
+With optical imaging, this registration task is challenging since you are
 typically dealing with digital stacks of 2D images. The massive advantage of
 using the whole-brain microCT data with the structure-tensor processing step is
 that the data is already in the same format as the MRI reconstruction, and the

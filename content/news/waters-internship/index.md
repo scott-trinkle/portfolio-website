@@ -44,7 +44,7 @@ clustering](https://hdbscan.readthedocs.io/en/latest/index.html)
 While tissue classification groups similar x-y pixels together based on their
 mass spectral signature, analyte clustering instead groups similar spectral
 points together based on their spatial distributions. This allows researchers to
-discover linked distribution patterns of differrent analytes, which can aid in
+discover linked distribution patterns of different analytes, which can aid in
 pharmaceutical research.
 
 For analyte clustering, I am using [Ward's hierarchical
