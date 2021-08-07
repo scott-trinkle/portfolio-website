@@ -36,7 +36,7 @@ movie theater, playing guitar, running, or baking bread.`,
         link: '/news/waters-internship/',
       },
       {
-        name: 'MSI Tissue Classifier',
+        name: 'MSI Classifier',
         description:
           'Web app for the unsupervised classification of tissue types in multi-dimensional mass spectrometry imaging data using manifold learning and hierarchical density-based clustering.',
         link: '/news/waters-internship/',
@@ -44,7 +44,7 @@ movie theater, playing guitar, running, or baking bread.`,
       {
         name: 'Diffusion MRI validation with x-ray microCT',
         description:
-          'Developed tools for structure orientation extraction and multi-modal, multi-scale spatial registration.',
+          'Developed computer vision tools for structure orientation extraction and multi-modal, multi-scale spatial registration.',
         link: '/news/microct-paper/',
       },
       {
@@ -65,7 +65,7 @@ movie theater, playing guitar, running, or baking bread.`,
       {
         name: 'Waters Corporation',
         description: 'Machine Learning Intern, June 2021 - Present',
-        link: 'https://www.waters.com/',
+        link: 'https://www.waters.com/waters/en_US/Waters/nav.htm?cid=513691&locale=en_US',
       },
       {
         name: 'University of Chicago Committee on Medical Physics',
