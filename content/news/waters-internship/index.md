@@ -8,11 +8,13 @@ I'm excited to announce that I have been hired as a Machine Learning Intern for
 the next three months at [Waters
 Corporation](https://www.waters.com/waters/en_US/Waters/nav.htm?cid=513691&locale=en_US).
 
-My responsibilities will involve the development of lightweight Python web apps
-in the domain of [mass spectrometry
+My responsibilities involve the development of lightweight Python web apps in
+the domain of [mass spectrometry
 imaging](https://en.wikipedia.org/wiki/Mass_spectrometry_imaging) (MSI) using
 [Streamlit](https://streamlit.io/), with deployment through
-[Docker](https://www.docker.com/) and [AWS](https://aws.amazon.com/).
+[Docker](https://www.docker.com/) and [AWS](https://aws.amazon.com/). I am
+also responsible for unit and e2e testing of the web apps, documentation and
+version control with git.
 
 MSI data is multi-dimensional, with 2-3 spatial dimensions as well as a spectral
 dimension quantifying the presence of 1000s of specific analytes with a given
