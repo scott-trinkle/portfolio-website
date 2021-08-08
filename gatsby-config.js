@@ -99,7 +99,7 @@ Criterion Channel, playing guitar, running, rock climbing, or baking bread.`,
       },
       {
         name: 'Tools',
-        description: 'git, GNU Emacs, LaTeX, Docker, AWS',
+        description: 'git, GNU Emacs, LaTeX, Jupyter, Docker, AWS',
       },
     ],
   },
