@@ -27,7 +27,7 @@ and electron microscopy. I am also currently a Machine Learning Intern at Waters
 Corporation where I am developing Python web apps to perform tissue
 classification and interactive visualization of mass spectrometry imaging
 data. In my free time, I can usually be found watching something from the
-Criterion Channel, playing guitar, running, or baking bread.`,
+Criterion Channel, playing guitar, running, rock climbing, or baking bread.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
