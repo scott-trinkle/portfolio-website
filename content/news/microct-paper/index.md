@@ -1,5 +1,5 @@
 ---
-title: 'New paper: feature extraction from 10 TB of microCT data and spatial registration to diffusion MRI'
+title: 'New paper: feature extraction from a 1 TB microCT image and spatial registration to diffusion MRI'
 date: '2021-03-25T12:00:00.00Z'
 description: 'My new paper was just published in Magnetic Resonance in Medicine. It demonstrates a processing pipeline to validate diffusion MRI with microCT.'
 ---
@@ -18,7 +18,7 @@ href="http://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B0
 
 # Highlights
 
-- I developed a 4D spatio-angular registration pipeline between a ~10 TB microCT
+- I developed a 4D spatio-angular registration pipeline between a ~1 TB microCT
   dataset and a ~100 MB diffusion MRI dataset of the same mouse brain
 - I developed computer vision tools to extract local nerve fiber orientations from high-resolution
   microCT data and bin them as an angular distribution on a basis of spherical harmonic functions
