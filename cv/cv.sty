@@ -1,3 +1,7 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Inspired by https://github.com/talonchandler/talonchandler.github.io/blob/master/cv/cv.sty
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 % Packages
 \usepackage[
 top    = 1.75cm,
@@ -81,19 +85,26 @@ right  = 2cm]{geometry}
 \DeclareFieldFormat{userb}{}
 \DeclareFieldFormat{userc}{}
 
-% \AtEveryBibitem{%
-%     \csappto{blx@bbx@\thefield{entrytype}}{% put at end of entry
-% 		% \iffieldundef{usera}{\ifentrytype{patent}{}{\newline}}{\iffieldundef{userb}{}{\newline}}
-% 		\iffieldundef{usera}{%
-% 			\ifentrytype{patent}{}{%
-% 				\space{}\space{}\href{https://talonchandler.com/papers/\thefield{entrykey}.pdf}{\faFilePdfO~PDF}%
-% 			}%
-% 		}{}%
-% 		\iffieldundef{userb}{}{%
-% 			\space{}\space{}\href{\thefield{userc}}{\aiGoogleScholarSquare~citations: \thefield{userb}}%
-% 		}%
-% 	}
-% }
 
 % Use [roman] style
 \renewcommand{\labelenumi}{[\theenumi]}
+
+% Create benumerate environments 
+\newenvironment{benumerate}[1]{
+    \let\oldItem\item
+    \def\item{\addtocounter{enumi}{-2}\oldItem}
+    \begin{enumerate}[labelsep=0.0125\textwidth, align=left]
+    \setcounter{enumi}{#1}
+    \addtocounter{enumi}{1}
+}{
+    \end{enumerate}
+  }
+\newenvironment{mybenumerate}[1]{
+    \let\oldItem\item
+    \def\item{\addtocounter{enumi}{-2}\oldItem}
+    \begin{enumerate}[itemsep=-2pt, labelsep=0.0125\textwidth, align=left]
+    \setcounter{enumi}{#1}
+    \addtocounter{enumi}{1}
+}{
+    \end{enumerate}
+}

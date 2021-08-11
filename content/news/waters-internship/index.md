@@ -39,7 +39,7 @@ For tissue classification, I am using [manifold
 learning](https://umap-learn.readthedocs.io/en/latest/) to embed x-y points from
 the ~1000-element spectral dimension into 2-3 dimensions, which allows for
 efficient [hierarchical density-based
-clustering](https://hdbscan.readthedocs.io/en/latest/index.html)
+clustering](https://hdbscan.readthedocs.io/en/latest/index.html).
 
 While tissue classification groups similar x-y pixels together based on their
 mass spectral signature, analyte clustering instead groups similar spectral

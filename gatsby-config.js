@@ -19,7 +19,7 @@ module.exports = {
     // Content of the About Me section
     about: `I am a data scientist with experience developing image processing, segmentation,
 and classification tools for preclinical medical imaging data. I am completing
-my Ph.D in Medical Physics at the University of Chicago in December 2021. My
+my Ph.D. in Medical Physics at the University of Chicago in December 2021. My
 work there has involved developing computer vision and image registration tools
 for validation studies between multiple preclinical imaging modalities including
 synchrotron x-ray microCT, diffusion MRI tractography, fluorescence microscopy,
