@@ -16,6 +16,10 @@ href="http://neuroglancer-demo.appspot.com/#!%7B%22dimensions%22:%7B%22x%22:%5B0
  target = "_blank" rel="noreferrer">Click here</a> to explore our entire microCT dataset online using
 [Neuroglancer](https://opensource.google/projects/neuroglancer).
 
+I published the analysis and visualization code I developed for this project as
+a Python package called Fiberorient. You can [check out the code
+here](https://github.com/scott-trinkle/fiberorient).
+
 # Highlights
 
 - I developed a 4D spatio-angular registration pipeline between a ~1 TB microCT

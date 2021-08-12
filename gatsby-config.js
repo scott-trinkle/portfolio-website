@@ -43,23 +43,16 @@ Criterion Channel, playing guitar, running, rock climbing, or baking bread.`,
         link: '/news/waters-internship/',
       },
       {
-        name: 'braingraphgeo',
+        name: 'Braingraphgeo',
         description:
           'Braingraphgeo is a Python package I developed for performing analysis on structural brain networks using random geometric surrogate graphs.',
         link: 'https://github.com/scott-trinkle/braingraphgeo',
       },	
       {
-        name: 'Diffusion MRI validation with x-ray microCT',
+        name: 'Fiberorient',
         description:
-          'Developed computer vision tools for structure orientation extraction and multi-modal, multi-scale spatial registration.',
-        link: '/news/microct-paper/',
-      },
-
-      {
-        name: 'Model-free MR myelin imaging',
-        description:
-          'Demonstrated that common biophysical models lead to compromised myelin classification accuracy compared to a model-free spectral asymmetry metric.',
-        link: '/news/myelin-imaging/',
+          'Fiberorient is a Python package I developed for extracting and visualizing the orientations of local structures in 3D image data using structure tensor analysis.',
+        link: 'https://github.com/scott-trinkle/fiberorient',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.

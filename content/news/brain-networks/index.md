@@ -10,8 +10,8 @@ under review at NeuroImage. You can download the draft <a
 href="/brain_networks.pdf" target="_blank" rel="noreferrer">here</a>.
 
 I published the analysis and visualization code I developed for this project in
-a Python package called `braingraphgeo`. You can 
-[check out the code here](https://github.com/scott-trinkle/braingraphgeo)!
+a Python package called Braingraphgeo. You can [check out the code
+here](https://github.com/scott-trinkle/braingraphgeo)!
 
 # Highlights
 
