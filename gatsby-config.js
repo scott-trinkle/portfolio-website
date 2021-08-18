@@ -29,31 +29,37 @@ classification and interactive visualization of mass spectrometry imaging
 data. In my free time, I can usually be found watching something from the
 Criterion Channel, playing guitar, running, rock climbing, or baking bread.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
-      {
-        name: 'MSI Viewer',
-        description:
-          'Web app for the interactive visualization of mass spectrometry imaging data. Built with Streamlit and Bokeh.',
-        link: '/news/waters-internship/',
-      },
-      {
-        name: 'MSI Classifier',
-        description:
-          'Web app for the unsupervised classification of tissue types in multi-dimensional mass spectrometry imaging data using manifold learning and hierarchical density-based clustering.',
-        link: '/news/waters-internship/',
-      },
+      projects: [
       {
         name: 'Braingraphgeo',
         description:
-          'Braingraphgeo is a Python package I developed for performing analysis on structural brain networks using random geometric surrogate graphs.',
+          'Python package for performing analysis on structural brain networks using random geometric surrogate graphs.',
         link: 'https://github.com/scott-trinkle/braingraphgeo',
       },	
       {
         name: 'Fiberorient',
         description:
-          'Fiberorient is a Python package I developed for extracting and visualizing the orientations of local structures in 3D image data using structure tensor analysis.',
+          'Python package for extracting and visualizing the orientations of local structures in 3D image data using structure tensor analysis.',
         link: 'https://github.com/scott-trinkle/fiberorient',
       },
+      {
+        name: 'Nuclei Finder',
+        description:
+          'Web app for the automatic segmentation of cell nuclei in optical images. Model built with TensorFlow using a UNET architecture, app built with Streamlit.',
+          link: 'https://github.com/scott-trinkle/nuclei-finder',
+      },	  
+      {
+        name: 'MSI Classifier',
+        description:
+          'Web app for the unsupervised classification of tissue types in multi-dimensional mass spectrometry imaging data using manifold learning and hierarchical density-based clustering. Built with Streamlit.',
+        link: '/news/waters-internship/',
+      },  
+      {
+        name: 'MSI Viewer',
+        description:
+          'Web app for the interactive visualization of mass spectrometry imaging data. Built with Streamlit and Bokeh.',
+        link: '/news/waters-internship/',
+      }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
