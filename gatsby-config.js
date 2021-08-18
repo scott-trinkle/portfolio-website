@@ -46,7 +46,7 @@ Criterion Channel, playing guitar, running, rock climbing, or baking bread.`,
         name: 'Nuclei Finder',
         description:
           'Web app for the automatic segmentation of cell nuclei in optical images. Model built with TensorFlow using a UNET architecture, app built with Streamlit.',
-          link: 'https://github.com/scott-trinkle/nuclei-finder',
+          link: 'https://nuclei-finder.herokuapp.com/',
       },	  
       {
         name: 'MSI Classifier',
