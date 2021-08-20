@@ -39,15 +39,9 @@ Criterion Channel, playing guitar, running, rock climbing, or baking bread.`,
       {
         name: 'Fiberorient',
         description:
-          'Python package for extracting and visualizing the orientations of local structures in 3D image data using structure tensor analysis.',
+          'Python package for extracting and visualizing the orientations of local structures in 3D imaging data using structure tensor analysis.',
         link: 'https://github.com/scott-trinkle/fiberorient',
       },
-      {
-        name: 'Nuclei Finder',
-        description:
-          'Web app for the automatic segmentation of cell nuclei in optical images. Model built with TensorFlow using a UNET architecture, app built with Streamlit.',
-          link: 'https://share.streamlit.io/scott-trinkle/nuclei-finder/main/app.py',
-      },	  
       {
         name: 'MSI Classifier',
         description:
@@ -59,7 +53,13 @@ Criterion Channel, playing guitar, running, rock climbing, or baking bread.`,
         description:
           'Web app for the interactive visualization of mass spectrometry imaging data. Built with Streamlit and Bokeh.',
         link: '/news/waters-internship/',
-      }
+      },
+      {
+        name: 'Nuclei Finder',
+        description:
+          'Personal side-project for the segmentation of cell nuclei in multiple optical imaging modalities. Model built with TensorFlow using a UNET architecture, app built and deployed with Streamlit.',
+          link: 'https://github.com/scott-trinkle/nuclei-finder',
+      }	  
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
