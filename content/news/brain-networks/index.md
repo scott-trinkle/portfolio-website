@@ -1,13 +1,13 @@
 ---
 title: 'New paper: Geometric bias in mouse brain networks from diffusion MRI'
-date: '2021-07-28T12:00:00.00Z'
+date: '2021-09-12T12:00:00.00Z'
 description: 'My new manuscript uses graph theory and optical tracer imaging to show that many properties of structural mouse brain networks measured with diffusion MRI can be largely explained through their spatial embedding alone, revealing geometric biases in diffusion tractography.'
 ---
 
-My first-author paper "The role of spatial embedding in mouse brain networks
-constructed from diffusion tractography and tracer injections" is currently
-under review at NeuroImage. You can download the draft <a
-href="/brain_networks.pdf" target="_blank" rel="noreferrer">here</a>.
+My first-author paper "[The role of spatial embedding in mouse brain networks
+constructed from diffusion tractography and tracer
+injections](https://www.sciencedirect.com/science/article/pii/S1053811921008491#bib0003)"
+has been published online at NeuroImage.
 
 I published the analysis and visualization code I developed for this project in
 a Python package called Braingraphgeo. You can [check out the code
