@@ -59,7 +59,9 @@
       "color-string": ">=1.5.5",
       "hosted-git-info": ">=2.8.9",
       "highlight.js": ">=9.18.2",
-      "node-fetch": ">=2.6.1"
+      "node-fetch": ">=2.6.1",
+      "ansi-regex": ">=5.0.1",
+      "immer": ">=9.0.6"
   },
   "devDependencies": {
     "prettier": "2.1.2",
