@@ -29,13 +29,13 @@ classification and interactive visualization of mass spectrometry imaging
 data. In my free time, I can usually be found watching something from the
 Criterion Channel, playing guitar, running, rock climbing, or baking bread.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-      projects: [
+    projects: [
       {
         name: 'Braingraphgeo',
         description:
           'Python package for performing analysis on structural brain networks using random geometric surrogate graphs.',
         link: 'https://github.com/scott-trinkle/braingraphgeo',
-      },	
+      },
       {
         name: 'Fiberorient',
         description:
@@ -47,7 +47,7 @@ Criterion Channel, playing guitar, running, rock climbing, or baking bread.`,
         description:
           'Web app for the unsupervised classification of tissue types in multi-dimensional mass spectrometry imaging data using manifold learning and hierarchical density-based clustering. Built with Streamlit.',
         link: '/news/waters-internship/',
-      },  
+      },
       {
         name: 'MSI Viewer',
         description:
@@ -58,8 +58,8 @@ Criterion Channel, playing guitar, running, rock climbing, or baking bread.`,
         name: 'Nuclei Finder',
         description:
           'Personal side-project for the segmentation of cell nuclei in multiple optical imaging modalities. Model built with TensorFlow using a UNET architecture, app built and deployed with Streamlit.',
-          link: 'https://github.com/scott-trinkle/nuclei-finder',
-      }	  
+        link: 'https://github.com/scott-trinkle/nuclei-finder',
+      },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
