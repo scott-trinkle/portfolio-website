@@ -18,16 +18,16 @@ module.exports = {
     contact: `#`, // file path defined in src/components/header/index.jsx
     // Content of the About Me section
     about: `I am a data scientist with experience developing image processing, segmentation,
-and classification tools for preclinical medical imaging data. I am completing
-my Ph.D. in Medical Physics at the University of Chicago in December 2021. My
-work there has involved developing computer vision and image registration tools
-for validation studies between multiple preclinical imaging modalities including
-synchrotron x-ray microCT, diffusion MRI tractography, fluorescence microscopy,
-and electron microscopy. I am also currently a Machine Learning Intern at Waters
-Corporation where I am developing Python web apps to perform tissue
-classification and interactive visualization of mass spectrometry imaging
-data. In my free time, I can usually be found watching something from the
-Criterion Channel, playing guitar, running, rock climbing, or baking bread.`,
+and classification tools for image data. I completed my Ph.D. in Medical Physics
+at the University of Chicago in December 2021. My work there involved developing
+computer vision and image registration tools for validation studies between
+multiple preclinical imaging modalities including synchrotron x-ray microCT,
+diffusion MRI tractography, fluorescence microscopy, and electron
+microscopy. Now at Waters Corporation, I work as a Data Engineer developing
+Python web apps to perform automated tissue classification and interactive
+visualization of mass spectrometry imaging data. In my free time, I can usually
+be found watching something from the Criterion Channel, playing guitar, running,
+rock climbing, or baking bread.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -43,18 +43,6 @@ Criterion Channel, playing guitar, running, rock climbing, or baking bread.`,
         link: 'https://github.com/scott-trinkle/fiberorient',
       },
       {
-        name: 'MSI Classifier',
-        description:
-          'Web app for the unsupervised classification of tissue types in multi-dimensional mass spectrometry imaging data using manifold learning and hierarchical density-based clustering. Built with Streamlit.',
-        link: '/news/waters-internship/',
-      },
-      {
-        name: 'MSI Viewer',
-        description:
-          'Web app for the interactive visualization of mass spectrometry imaging data. Built with Streamlit and Bokeh.',
-        link: '/news/waters-internship/',
-      },
-      {
         name: 'Nuclei Finder',
         description:
           'Personal side-project for the segmentation of cell nuclei in multiple optical imaging modalities. Model built with TensorFlow using a UNET architecture, app built and deployed with Streamlit.',
@@ -65,7 +53,7 @@ Criterion Channel, playing guitar, running, rock climbing, or baking bread.`,
     experience: [
       {
         name: 'Waters Corporation',
-        description: 'Machine Learning Intern, June 2021 - Present',
+        description: 'Data Engineer, January 2022 - Present',
         link:
           'https://www.waters.com/waters/en_US/Waters/nav.htm?cid=513691&locale=en_US',
       },
@@ -89,7 +77,7 @@ Criterion Channel, playing guitar, running, rock climbing, or baking bread.`,
       {
         name: 'Programming',
         description:
-          'Python (including NumPy, Pandas, Scikit-learn, Matplotlib, Bokeh, Keras, TensorFlow, PyTorch), Bash, MATLAB, SQL, R, C++',
+          'Python (NumPy, Pandas, Scikit-learn, Matplotlib, Bokeh, Keras, TensorFlow, PyTorch), Bash, MATLAB, SQL, R, C++',
       },
       {
         name: 'Analysis',
