@@ -1,13 +1,13 @@
 ---
-title: 'New paper: Model-based vs. model-free myelin imaging'
-date: '2021-07-14T12:00:00.00Z'
+title: 'New preprint: Model-based vs. model-free myelin imaging'
+date: '2022-02-28T12:00:00.00Z'
 description: 'My latest manuscript uses model-free analysis of echo-planar spectroscopic imaging to show that fitting data to common biophysical models lowers myelin classification performance.'
 ---
 
-My first-author paper "The role of spatial embedding in mouse brain networks
-constructed from diffusion tractography and tracer injections" is currently
-under review at Magnetic Resonance in Medicine. You can download the draft <a
-href="/myelin_paper.pdf" target="_blank" rel="noreferrer">here</a>.
+My first-author paper ["The role of spatial embedding in mouse brain networks
+constructed from diffusion tractography and tracer
+injections"](https://www.biorxiv.org/content/10.1101/2022.02.24.481824v1) has
+been published online as a preprint at bioRxiv.
 
 # Highlights
 

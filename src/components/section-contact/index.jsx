@@ -6,7 +6,7 @@ const SectionContact = ({ contact }) => {
   return (
     <Section title="Contact">
       <div className="mb-6">
-        <p>trinkle &#60;at&#62; uchicago.edu</p>
+        <p>trinkle@uchicago.edu</p>
         <p>
           <a
             href="https://github.com/scott-trinkle"
