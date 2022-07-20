@@ -24,10 +24,10 @@ computer vision and image registration tools for validation studies between
 multiple preclinical imaging modalities including synchrotron x-ray microCT,
 diffusion MRI tractography, fluorescence microscopy, and electron
 microscopy. Now at Waters Corporation, I work as a Data Engineer developing
-Python web apps to perform automated tissue classification and interactive
-visualization of mass spectrometry imaging data. In my free time, I can usually
-be found watching something from the Criterion Channel, playing guitar, running,
-rock climbing, or baking bread.`,
+machine learning tools and software for processing and exploring mass
+spectrometry imaging data. In my free time, I can usually be found watching
+something from the Criterion Channel, playing guitar, running, rock climbing, or
+baking bread.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
