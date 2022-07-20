@@ -1,5 +1,5 @@
 ---
-title: 'Poster presentations at ASMS'
+title: 'Award: Best thesis'
 date: '2022-06-03T12:00:00.00Z'
 description: 'I received the Best Thesis award from my graduate program.'
 ---
