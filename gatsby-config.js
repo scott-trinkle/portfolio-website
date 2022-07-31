@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Scott Trinkle | Data scientist`,
     // Description that goes under your name in main bio
-    description: `Data scientist based in Chicago, IL`,
+    description: `Data scientist based in Atlanta, GA`,
     // Optional: Twitter account handle
     //author: `@rfitzio`,
     // Optional: Github account URL
