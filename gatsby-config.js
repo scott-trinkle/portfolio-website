@@ -19,15 +19,13 @@ module.exports = {
     // Content of the About Me section
     about: `I am a data scientist with experience developing image processing, segmentation,
 and classification tools for image data. I completed my Ph.D. in Medical Physics
-at the University of Chicago in December 2021. My work there involved developing
+at the University of Chicago in 2021. My work there involved developing
 computer vision and image registration tools for validation studies between
 multiple preclinical imaging modalities including synchrotron x-ray microCT,
 diffusion MRI tractography, fluorescence microscopy, and electron
 microscopy. Now at Waters Corporation, I work as a Data Engineer developing
 machine learning tools and software for processing and exploring mass
-spectrometry imaging data. In my free time, I can usually be found watching
-something from the Criterion Channel, playing guitar, running, rock climbing, or
-baking bread.`,
+spectrometry and liquid chromatography data.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -42,32 +40,32 @@ baking bread.`,
           'Python package for extracting and visualizing the orientations of local structures in 3D imaging data using structure tensor analysis.',
         link: 'https://github.com/scott-trinkle/fiberorient',
       },
-      {
-        name: 'Nuclei Finder',
-        description:
-          'Personal side-project for the segmentation of cell nuclei in multiple optical imaging modalities. Model built with TensorFlow using a UNET architecture, app built and deployed with Streamlit.',
-        link: 'https://github.com/scott-trinkle/nuclei-finder',
-      },
+      // {
+      //   name: 'Nuclei Finder',
+      //   description:
+      //     'Personal side-project for the segmentation of cell nuclei in multiple optical imaging modalities. Model built with TensorFlow using a UNET architecture, app built and deployed with Streamlit.',
+      //   link: 'https://github.com/scott-trinkle/nuclei-finder',
+      // },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
         name: 'Waters Corporation',
-        description: 'Data Engineer, January 2022 - Present',
+        description: 'Senior Data Engineer, 2022 - Present',
         link:
           'https://www.waters.com/waters/en_US/Waters/nav.htm?cid=513691&locale=en_US',
       },
       {
         name: 'University of Chicago Committee on Medical Physics',
         description:
-          'Graduate Research Assistant, September 2016 - December 2021',
+          'Graduate Research Assistant, 2016 - 2021',
         link: 'https://medphys.uchicago.edu',
       },
       {
         name:
           'University of Florida Advanced Laboratory for Radiation Dosimetry Studies',
         description:
-          'Undergraduate Research Assistant, January 2013 - May 2016',
+          'Undergraduate Research Assistant, 2013 - 2016',
         link:
           'https://medphysics.med.ufl.edu/medical-physics-graduate-program/faculty-facilities/research-labs/advanced-laboratory-for-radiation-dosimetry-studies/',
       },
@@ -86,7 +84,7 @@ baking bread.`,
       },
       {
         name: 'Tools',
-        description: 'git, GNU Emacs, LaTeX, Jupyter, Docker, AWS',
+        description: 'git, Docker, AWS, Jupyter, GNU Emacs, LaTeX',
       },
     ],
   },
